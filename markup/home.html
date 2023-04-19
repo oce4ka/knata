@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="favicon/favicon.png">
+</head>
+<body>
+<a href="#" class="logo">
+    <svg preserveAspectRatio="none" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FC5F02">
+        <g clip-path="url(#clip0_553_622)">
+            <path d="M8.90758 30.9604L7.27588 41.7241L18.0395 40.0924L8.90758 30.9604Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M40.0924 18.0395L41.7241 7.27588L30.9604 8.90758L40.0924 18.0395Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M40.0924 30.9604L30.9604 40.0924L41.7241 41.7241L40.0924 30.9604Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.0395 8.90758L7.27588 7.27588L8.90758 18.0395L18.0395 8.90758Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M40.0923 30.8271L48.86 24.3703L40.0923 17.9136V30.8271Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M30.9464 8.90789L24.4897 0.140137L18.0259 8.90789H30.9464Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.0259 40.0923L24.4897 48.86L30.9464 40.0923H18.0259Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8.90789 17.9136L0.140137 24.3703L8.90789 30.8271V17.9136Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8.76074 17.9136L17.5285 24.3703L8.76074 30.8271V17.9136Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M40.2324 17.9136L31.4717 24.3703L40.2324 30.8271V17.9136Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.0259 40.2393L24.4897 31.4785L30.9464 40.2393H18.0259Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.0259 8.7749L24.4897 17.5357L30.9464 8.7749H18.0259Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M31.2823 17.5845H17.7104V31.1563H31.2823V17.5845Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M31.1124 24.2168L24.4868 17.5913L17.8613 24.2168L24.4868 30.8424L31.1124 24.2168Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M24.4896 30.8341C26.6955 28.7682 28.9085 26.3522 31.1144 24.2793C26.6955 24.2793 22.2836 24.2793 17.8647 24.2793C20.0707 26.3522 22.2766 28.7682 24.4896 30.8341Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M24.4896 17.6333C22.2836 19.6992 20.0707 22.1152 17.8647 24.1881C22.2836 24.1881 26.6955 24.1881 31.1144 24.1881C28.9015 22.1152 26.6955 19.6992 24.4896 17.6333Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.7105 17.6333L8.90771 17.9134L17.6475 24.2301L17.7105 17.6333Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M31.2686 17.5776L40.1484 17.9278L31.3316 24.3846L31.2686 17.5776Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8.90771 30.8274L17.7105 31.1565L17.7385 24.3706L8.90771 30.8274Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M39.9872 30.7573L31.4575 31.1565L31.4365 24.3706L39.9872 30.7573Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+            <clipPath id="clip0_553_622">
+                <rect width="49" height="49"/>
+            </clipPath>
+        </defs>
+    </svg>
+</a>
+<nav class="nav-main">
+    <a class="btn-hamb" href="#hamburger">Menu</a>
+    <div class="nav-wrapper">
+        <h1 class="who-i-am for-desktop">
+            I am Senior UI/UX designer
+            <br/>
+            with rich cross-industry knowledge.
+        </h1>
+        <ul class="nav-list">
+            <li><a href="#caseStudies">Case Studies</a></li>
+            <li><a href="#about">Methodology</a></li>
+            <li><a href="#companiesAndBrands">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="fullpage">
+    <div class="section s-home">
+        <div class="s-home__grid">
+            <div class="item-black"></div>
+            <div class="item-grey"></div>
+            <div class="item-orange"></div>
+            <img class="s-home__figure" src="img/figure-home.png" alt="">
+            <div class="s-home__content">
+                <div class="s-home__content-black">
+                    <h1 class="who-i-am for-desktop">
+                        I am Senior UI/UX designer
+                        <br/>
+                        with rich cross-industry knowledge.
+                    </h1>
+                    <h2 class="slogan">
+                        Design<br/>
+                        shapes<br/>
+                        your<br/>
+                        <span class="orange">success</span>
+                    </h2>
+                </div>
+                <div class="s-home__content-grey">
+                    <h4 class="form-heading">Sign up to my social media accounts:</h4>
+                    <div class="social">
+                        <a class="dribble" href="#">Dribble</a>
+                        <a class="behance" href="#">Behance</a>
+                        <a class="pinterest" href="#">Pinterest</a>
+                    </div>
+                    <h4 class="form-heading">Sign up to the newsletter:</h4>
+                    <input class="input-newsletter" placeholder="Your email" type="text"/>
+                </div>
+                <div class="s-home__content-orange">
+                    <h4>Hi! My name is Corneeva Natalia</h4>
+                    <p>By incorporating design into the main part of development process, companies can create unique, engaging, and user-friendly experiences that stand out from the competition.</p>
+                    <a class="btn-black for-desktop" href="#">request me for a project</a>
+                    <a class="btn-black for-mobile" href="#">request me...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s-about">
+        <div class="section-wrapper">
+            <h2 class="s-about__heading section-heading">About</h2>
+            <div class="s-about__content">
+                <p>An expert in UI/UX is a critical player in the success of any company's digital product ideation, creation and latest development. My mindset brings an unique combination of technical expertise and creative vision to the table, ensuring that the product is both functional and aesthetically appealing.</p>
+                <p>Another hallmark of my UI/UX approach is an unwavering focus on the user. From the initial stages to the final launch, I keep the end-user's needs at the forefront of my mind. This approach not only leads to better product design, but also to increased customer satisfaction and loyalty.</p>
+                <p>My ability to clearly communicate project goals, timelines, and expectations, and to collaborate with cross-functional teams, ensures that projects are completed on time, on budget, and to a high standard.</p>
+                <p>In conclusion, my approach is characterized by a technical competence, creative vision, focus on the user, and strong leadership skills. I am trusted and reliable specialist, who uses the latest knowledge to help companies achieve success.</p>
+            </div>
+
+            <h3 class="s-about__heading-questions">Questions, I solve as a specialist:</h3>
+            <div class="carousel-wrapper question">
+                <div class="s-about__carousel-questions">
+                    <div class="s-about__carousel-question">
+                        <div class="s-about__role">product analysis and redesign/consulting:</div>
+                        <div class="s-about__question">“How would you design X product for a specific set of users?”</div>
+                    </div>
+                    <div class="s-about__carousel-question">
+                        <div class="s-about__role">product analysis and redesign/consulting:</div>
+                        <div class="s-about__question">“How would you design X product for a specific set of users?”</div>
+                    </div>
+                    <div class="s-about__carousel-question">
+                        <div class="s-about__role">product analysis and redesign/consulting:</div>
+                        <div class="s-about__question">“How would you design X product for a specific set of users?”</div>
+                    </div>
+                    <div class="s-about__carousel-question">
+                        <div class="s-about__role">product analysis and redesign/consulting:</div>
+                        <div class="s-about__question">“How would you design X product for a specific set of users?”</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s-case-studies">
+        <div class="section-wrapper">
+            <h2 class="section-heading">Case studies</h2>
+            <div class="s-case-studies__projects">
+                <div class="s-case-studies__project">
+                    <img src="https://placehold.co/536x378" alt=""/>
+                    <p>Hololence adoption, <span class="s-case-studies__company">PWC/Microsoft</span></p>
+                </div>
+                <div class="s-case-studies__project">
+                    <img src="https://placehold.co/536x378" alt=""/>
+                    <p>Hololence adoption, <span class="s-case-studies__company">PWC/Microsoft</span></p>
+                </div>
+                <div class="s-case-studies__project">
+                    <img src="https://placehold.co/536x378" alt=""/>
+                    <p>Hololence adoption, <span class="s-case-studies__company">PWC/Microsoft</span></p>
+                </div>
+                <div class="s-case-studies__project">
+                    <img src="https://placehold.co/536x378" alt=""/>
+                    <p>Hololence adoption, <span class="s-case-studies__company">PWC/Microsoft</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s-companies s-black">
+        <div class="section-wrapper">
+            <h2 class="section-heading">Companies & Brands</h2>
+            <div class="carousel-wrapper">
+                <div class="s-companies__carousel-brands">
+                    <img src="https://placehold.co/146x30" alt=""/>
+                    <img src="https://placehold.co/94x62" alt=""/>
+                    <img src="https://placehold.co/105x25" alt=""/>
+                    <img src="https://placehold.co/146x30" alt=""/>
+                    <img src="https://placehold.co/94x62" alt=""/>
+                    <img src="https://placehold.co/105x25" alt=""/>
+                    <img src="https://placehold.co/146x30" alt=""/>
+                    <img src="https://placehold.co/94x62" alt=""/>
+                    <img src="https://placehold.co/105x25" alt=""/>
+                    <img src="https://placehold.co/146x30" alt=""/>
+                    <img src="https://placehold.co/94x62" alt=""/>
+                    <img src="https://placehold.co/105x25" alt=""/>
+                </div>
+            </div>
+            <h2 class="section-heading">Feedback</h2>
+            <div class="carousel-wrapper">
+                <div class="s-companies__carousel-feedback">
+                    <div class="s-companies__carousel-feedback-item">
+                        <div class="cite">
+                            Dear Natalia,<br/>
+                            I wanted to reach out and express my appreciation for the exceptional work you have been doing on our recent project. Your ability to create intuitive and user-friendly designs has truly elevated the overall product experience. Your attention to detail and passion for delivering top-notch designs is truly impressive. Keep up the great work!<br/>
+                            Best regards,
+                        </div>
+                        <div class="author">
+                            <strong>Cindy Chupack,</strong><br/>
+                            our client and a good person obviously
+                        </div>
+                    </div>
+                    <div class="s-companies__carousel-feedback-item">
+                        <div class="cite">
+                            Dear Natalia,<br/>
+                            I wanted to reach out and express my appreciation for the exceptional work you have been doing on our recent project. Your ability to create intuitive and user-friendly designs has truly elevated the overall product experience. Your attention to detail and passion for delivering top-notch designs is truly impressive. Keep up the great work!<br/>
+                            Best regards,
+                        </div>
+                        <div class="author">
+                            <strong>Cindy Chupack,</strong><br/>
+                            our client and a good person obviously
+                        </div>
+                    </div>
+                    <div class="s-companies__carousel-feedback-item">
+                        <div class="cite">
+                            Dear Natalia,<br/>
+                            I wanted to reach out and express my appreciation for the exceptional work you have been doing on our recent project. Your ability to create intuitive and user-friendly designs has truly elevated the overall product experience. Your attention to detail and passion for delivering top-notch designs is truly impressive. Keep up the great work!<br/>
+                            Best regards,
+                        </div>
+                        <div class="author">
+                            <strong>Cindy Chupack,</strong><br/>
+                            our client and a good person obviously
+                        </div>
+                    </div>
+                    <div class="s-companies__carousel-feedback-item">
+                        <div class="cite">
+                            Dear Natalia,<br/>
+                            I wanted to reach out and express my appreciation for the exceptional work you have been doing on our recent project. Your ability to create intuitive and user-friendly designs has truly elevated the overall product experience. Your attention to detail and passion for delivering top-notch designs is truly impressive. Keep up the great work!<br/>
+                            Best regards,
+                        </div>
+                        <div class="author">
+                            <strong>Cindy Chupack,</strong><br/>
+                            our client and a good person obviously
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section s-contact s-grey">
+        <div class="section-wrapper">
+            <h2 class="section-heading">Contact</h2>
+            <div class="s-contact__grid">
+                <div>
+                    <h2 class="s-contact__heading">Transform your digital experiences. <br> Schedule a call.</h2>
+                    <div class="for-desktop">
+                        <p>Make your digital products stand out from the rest with the help of UI/UX designer. With 8+ years of experience, Natalia can elevate your user experiences to the next level, driving results and making a lasting impact.</p>
+                        <p class="s-contact__contact-text">Don't wait, contact them today and discover what design excellence can do for you.</p>
+                        <h3 class="s-contact__heading-social">another way to contact:</h3>
+                        <div class="social-black">
+                            <div class="email">email direct link</div>
+                            <div class="linkedin">linked in direct link</div>
+                        </div>
+
+                        <div class="social">
+                            <a class="dribble" href="#">Dribble</a>
+                            <a class="behance" href="#">Behance</a>
+                            <a class="pinterest" href="#">Pinterest</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="contact-form">
+                        <div class="columns-2">
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                        <div class="columns-2">
+                            <input type="text">
+                            <input type="text">
+                        </div>
+                        <div class="columns-2">
+                            <input placeholder="Estimated Deadlines" type="text">
+                            <input type="text">
+                        </div>
+                        <div class="columns-1">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="columns-1">
+                            <input class="btn-black" type="submit" value="Apply">
+                        </div>
+                    </div>
+                    <div class="for-mobile">
+                        <p class="s-contact__description">Make your digital products stand out from the rest with the help of UI/UX designer. With 8+ years of experience, Natalia can elevate your user experiences to the next level, driving results and making a lasting impact.</p>
+                        <p class="s-contact__description s-contact__contact-text">Don't wait, contact them today and discover what design excellence can do for you.</p>
+                        <h3 class="s-contact__heading-social">another way to contact:</h3>
+                        <div class="social-black">
+                            <div class="email">email direct link</div>
+                            <div class="linkedin">linked in direct link</div>
+                        </div>
+
+                        <div class="social">
+                            <a class="dribble" href="#">Dribble</a>
+                            <a class="behance" href="#">Behance</a>
+                            <a class="pinterest" href="#">Pinterest</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <svg preserveAspectRatio="none" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#A399AA">
+                <g clip-path="url(#clip0_553_622)">
+                    <path d="M8.90758 30.9604L7.27588 41.7241L18.0395 40.0924L8.90758 30.9604Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M40.0924 18.0395L41.7241 7.27588L30.9604 8.90758L40.0924 18.0395Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M40.0924 30.9604L30.9604 40.0924L41.7241 41.7241L40.0924 30.9604Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.0395 8.90758L7.27588 7.27588L8.90758 18.0395L18.0395 8.90758Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M40.0923 30.8271L48.86 24.3703L40.0923 17.9136V30.8271Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M30.9464 8.90789L24.4897 0.140137L18.0259 8.90789H30.9464Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.0259 40.0923L24.4897 48.86L30.9464 40.0923H18.0259Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.90789 17.9136L0.140137 24.3703L8.90789 30.8271V17.9136Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.76074 17.9136L17.5285 24.3703L8.76074 30.8271V17.9136Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M40.2324 17.9136L31.4717 24.3703L40.2324 30.8271V17.9136Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.0259 40.2393L24.4897 31.4785L30.9464 40.2393H18.0259Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.0259 8.7749L24.4897 17.5357L30.9464 8.7749H18.0259Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M31.2823 17.5845H17.7104V31.1563H31.2823V17.5845Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M31.1124 24.2168L24.4868 17.5913L17.8613 24.2168L24.4868 30.8424L31.1124 24.2168Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.4896 30.8341C26.6955 28.7682 28.9085 26.3522 31.1144 24.2793C26.6955 24.2793 22.2836 24.2793 17.8647 24.2793C20.0707 26.3522 22.2766 28.7682 24.4896 30.8341Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.4896 17.6333C22.2836 19.6992 20.0707 22.1152 17.8647 24.1881C22.2836 24.1881 26.6955 24.1881 31.1144 24.1881C28.9015 22.1152 26.6955 19.6992 24.4896 17.6333Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17.7105 17.6333L8.90771 17.9134L17.6475 24.2301L17.7105 17.6333Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M31.2686 17.5776L40.1484 17.9278L31.3316 24.3846L31.2686 17.5776Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.90771 30.8274L17.7105 31.1565L17.7385 24.3706L8.90771 30.8274Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M39.9872 30.7573L31.4575 31.1565L31.4365 24.3706L39.9872 30.7573Z" stroke-width="2.56716" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_553_622">
+                        <rect width="49" height="49"/>
+                    </clipPath>
+                </defs>
+            </svg>
+            <div class="year">© 2023</div>
+        </div>
+    </div>
+
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+        crossorigin="anonymous"></script>
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+<!--<script src="js/easings.min.js"></script>-->
+<script src="js/fullpage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/custom.js" defer></script>
+</body>
+</html>
